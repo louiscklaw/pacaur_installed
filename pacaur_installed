@@ -1,0 +1,66 @@
+# to backup : pacaur -Q |awk -e '{print }' > pacaur_installed
+# to restore : pacaur -S --needed --noconfirm --noedit - < pacaur_installed
+
+# # no fonts... no culture.. 
+adobe-source-code-pro-fonts 
+adobe-source-han-sans-cn-fonts 
+adobe-source-han-sans-jp-fonts 
+adobe-source-han-sans-kr-fonts 
+adobe-source-han-sans-otc-fonts 
+adobe-source-han-sans-tw-fonts 
+adobe-source-sans-pro-fonts 
+adobe-source-serif-pro-fonts 
+ 
+# zsh is the best shell ever... 
+zsh-completions 
+zsh-lovers 
+zsh-autosuggestions 
+zsh-syntax-highlighting 
+ 
+# code4food 
+perl 
+perl-www-mechanize 
+python2 
+python 
+android-file-transfer 
+android-tools 
+android-udev 
+visual-paradigm-community 
+mongodb 
+mongodb-tools 
+robomongo 
+giggle-git 
+ 
+# better editor... better result... 
+gedit 
+visual-studio-code 
+ 
+# These can make work easier.  
+spotify 
+syncthing 
+syncthing-gtk 
+syncthing-inotify 
+virtualbox 
+virtualbox-ext-oracle 
+virtualbox-host-dkms 
+tmux  
+ 
+# connect to outside world  
+remmina 
+remmina-plugin-rdesktop 
+gigolo 
+nautilus-emblems-menu-extension-git 
+nautilus-sendto 
+nautilus-share 
+evolution-data-server 
+networkmanager-l2tp 
+networkmanager-openconnect 
+networkmanager-openvpn 
+networkmanager-pptp 
+networkmanager-sstp 
+ 
+# my leisure 
+arduide-git
+
+
+## end ##
