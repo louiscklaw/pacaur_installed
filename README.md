@@ -10,7 +10,7 @@ to list out the common package for daily use
 
 ### to restore : ###
 ```
-export MAKEPKG="makepkg --skipinteg"
+export MAKEPKG="makepkg --skipinteg --skipchecksums --skippgpcheck"
 
 pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louiscklaw/pacaur_installed/master/pacaur_installed |egrep -v "^[#| ]")
 ```
