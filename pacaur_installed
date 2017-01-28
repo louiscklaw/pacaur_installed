@@ -1,7 +1,26 @@
 # to backup : pacaur -Q |awk -e '{print }' > pacaur_installed
-# to restore : pacaur -S --needed --noconfirm --noedit - < pacaur_installed
+# to restore : pacaur -S --needed --noconfirm --noedit - <  pacaur_installed
 
-# # no fonts... no culture.. 
+
+# apricity os theme
+apricity-freezedry
+apricity-icons
+apricity-keyring
+apricity-themes-gnome
+apricity-wallpapers
+apricityassets
+
+#numix themes
+numix-bevel-icon-theme
+numix-circle-icon-theme-git
+numix-folders-git
+numix-icon-theme-git
+numix-themes
+numix-themes-blue-git
+numix-themes-darkblue
+numix-themes-osx-git
+
+# no fonts... no culture.. 
 adobe-source-code-pro-fonts 
 adobe-source-han-sans-cn-fonts 
 adobe-source-han-sans-jp-fonts 
@@ -10,18 +29,39 @@ adobe-source-han-sans-otc-fonts
 adobe-source-han-sans-tw-fonts 
 adobe-source-sans-pro-fonts 
 adobe-source-serif-pro-fonts 
+ttf-arphic-uming
+ttf-baekmuk
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-droid-min
+ttf-freefont
+ttf-hack
+ttf-liberation
+ttf-monaco
+ttf-roboto
  
 # zsh is the best shell ever... 
 zsh-completions 
 zsh-lovers 
 zsh-autosuggestions 
 zsh-syntax-highlighting 
- 
+powerline
+powerline-common
+powerline-fonts
+
+# sound
+alsi
+alsa-lib
+alsa-plugins
+alsa-utils
+
 # code4food 
 perl 
 perl-www-mechanize 
 python2 
 python 
+android-studio
 android-file-transfer 
 android-tools 
 android-udev 
@@ -29,10 +69,15 @@ visual-paradigm-community
 mongodb 
 mongodb-tools 
 robomongo 
-#giggle-git 
+firejail
+filezilla
+editorconfig-gedit
+editorconfig-vim
  
 # better editor... better result... 
-gedit 
+gedit
+gedit-code-assistance
+gedit-plugins
 visual-studio-code 
  
 # These can make work easier.  
@@ -43,24 +88,52 @@ syncthing-inotify
 virtualbox 
 virtualbox-ext-oracle 
 virtualbox-host-dkms 
+vim
+vim-airline
+vim-airline-themes
+vim-runtime
 tmux  
  
 # connect to outside world  
-remmina 
-remmina-plugin-rdesktop 
+remmina
+remmina-plugin-exec
+remmina-plugin-folder
+remmina-plugin-rdesktop
+remmina-plugin-ultravnc
 gigolo 
+nautilus
 nautilus-emblems-menu-extension-git 
 nautilus-sendto 
 nautilus-share 
+nautilus-actions
+nautilus-image-tools
 evolution-data-server 
+networkmanager
 networkmanager-l2tp 
 networkmanager-openconnect 
 networkmanager-openvpn 
 networkmanager-pptp 
 networkmanager-sstp 
+network-manager-applet
+imwheel
+
+
+# jre
+jdk8-openjdk
+jre7-openjdk
+jre7-openjdk-headless
+jre8-openjdk
+jre8-openjdk-headless
  
 # my leisure 
 arduide-git
 
+#wireshark
+wireless-regdb
+wireless_tools
+wireshark-cli
+wireshark-common
+wireshark-gtk
 
 ## end ##
+
