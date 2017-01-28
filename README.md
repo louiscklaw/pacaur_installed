@@ -10,6 +10,15 @@ to list out the common package for daily use
 
 ### to restore : ###
 ```
+1. add repository
+```
+[apricity-core]
+SigLevel = Required
+Server = http://static.apricityos.com/apricity-core-signed/
+```
+
+
+
 export MAKEPKG="makepkg --skipinteg --skipchecksums --skippgpcheck"
 
 pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louiscklaw/pacaur_installed/master/pacaur_installed |egrep -v "^[#| ]")
