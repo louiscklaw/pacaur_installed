@@ -73,6 +73,7 @@ firejail
 filezilla
 editorconfig-gedit
 editorconfig-vim
+gitkraken
  
 # better editor... better result... 
 gedit
@@ -100,7 +101,6 @@ remmina-plugin-exec
 remmina-plugin-folder
 remmina-plugin-rdesktop
 remmina-plugin-ultravnc
-gigolo 
 nautilus
 nautilus-emblems-menu-extension-git 
 nautilus-sendto 
