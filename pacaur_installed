@@ -87,7 +87,8 @@ visual-studio-code
 spotify 
 syncthing 
 syncthing-gtk 
-syncthing-inotify 
+syncthing-inotify
+linux-headers
 virtualbox 
 virtualbox-ext-oracle 
 virtualbox-host-dkms 
