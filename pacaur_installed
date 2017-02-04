@@ -1,6 +1,8 @@
 # to backup : pacaur -Q |awk -e '{print }' > pacaur_installed
 # to restore : pacaur -S --needed --noconfirm --noedit - <  pacaur_installed
 
+#gdm
+gdm
 
 # apricity os theme
 apricity-freezedry
