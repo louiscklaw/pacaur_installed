@@ -15,8 +15,13 @@ pacaur -Q |awk -e '{print $1}' > pacaur_installed
 1. add repository   
 ```
 [apricity-core]
-SigLevel = Required
+SigLevel = TrustAll
 Server = http://static.apricityos.com/apricity-core-signed/
+
+[archlinuxfr]
+SigLevel = Never
+Server = http://repo.archlinux.fr/$arch
+
 ```
 
 1. command line  
