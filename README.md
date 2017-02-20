@@ -11,9 +11,10 @@ pacaur -Q |awk -e '{print $1}' > pacaur_installed
 ```
 
 ### to restore : ###
-loc: `/etc/pacman.conf`
-1. add repository   
 
+* loc: `/etc/pacman.conf`
+
+1. add repository   
 ```
 [apricity-core]
 SigLevel = TrustAll
@@ -25,7 +26,7 @@ Server = http://repo.archlinux.fr/$arch
 
 ```
 
-1. command line  
+2. command line  
 ```
 export MAKEPKG="makepkg --skipinteg --skipchecksums --skippgpcheck"
 pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louiscklaw/pacaur_installed/master/pacaur_installed |egrep -v "^[#| ]")
@@ -33,4 +34,7 @@ pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louisckl
 
 BR,  
 Louis
-http://www.louislabs.com/
+
+https://portfolio.louislabs.com
+https://github.com/louiscklaw
+
