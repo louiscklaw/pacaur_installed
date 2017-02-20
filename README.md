@@ -33,8 +33,8 @@ pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louisckl
 ```
 
 BR,  
-Louis
+Louis  
 
-https://portfolio.louislabs.com
-https://github.com/louiscklaw
+https://portfolio.louislabs.com  
+https://github.com/louiscklaw  
 
