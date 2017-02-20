@@ -12,7 +12,8 @@ pacaur -Q |awk -e '{print $1}' > pacaur_installed
 
 ### to restore : ###
 
-* loc: `/etc/pacman.conf`
+* configuration file location:  
+`/etc/pacman.conf`
 
 1. add repository   
 ```
