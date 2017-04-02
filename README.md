@@ -10,9 +10,8 @@ to list out the common package for daily use
 pacaur -Q |awk -e '{print $1}' > pacaur_installed
 ```
 
-### to restore : ###
-
-* configuration file location:  
+### to restore :
+1. configuration file location:
 `/etc/pacman.conf`
 
 1. add repository   
@@ -27,7 +26,7 @@ Server = http://repo.archlinux.fr/$arch
 
 ```
 
-2. command line  
+1. command line  
 ```
 export MAKEPKG="makepkg --skipinteg --skipchecksums --skippgpcheck"
 pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louiscklaw/pacaur_installed/master/pacaur_installed |egrep -v "^[#| ]")
