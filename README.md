@@ -28,7 +28,11 @@ Server = http://repo.archlinux.fr/$arch
 
 1. command line  
 ```
+
 export MAKEPKG="makepkg --skipinteg --skipchecksums --skippgpcheck"
+
+gpg --recv-keys [key from PKGBUILD]
+
 pacaur -S --needed --noconfirm --noedit  $(curl  https://cdn.rawgit.com/louiscklaw/pacaur_installed/master/pacaur_installed |egrep -v "^[#| ]")
 ```
 
