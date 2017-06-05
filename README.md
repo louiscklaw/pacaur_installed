@@ -7,7 +7,7 @@ to list out the common package for daily use
 ## operation ##
 ### to backup :###
 ```
-pacaur -Q |awk -e '{print $1}' > pacaur_installed
+pacaur -Qqet  > pacaur_installed
 ```
 
 ### to restore :
